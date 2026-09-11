@@ -1,0 +1,65 @@
+
+================================================================================
+  KEY BUSINESS INSIGHTS — Smart Sales Intelligence Dashboard
+================================================================================
+
+DATASET OVERVIEW
+  Period        : 2021 – 2024 (4 years)
+  Total Records : 5,000 orders
+  Unique Customers: 300
+  Products       : 50 SKUs across 5 categories
+  Total Revenue  : ₹6.48 Crore
+  Total Profit   : ₹139 Lakh
+  Overall Margin : 21.5%
+
+--------------------------------------------------------------------------------
+INSIGHT 1 — ELECTRONICS DOMINATES REVENUE BUT HAS LOWEST MARGIN
+  Electronics contributes 78% of total revenue but has the lowest
+  profit margin (17.8%) among all categories. High price points
+  drive volume but discount pressure compresses margins significantly.
+  → Recommendation: Reduce discounting on electronics above-₹20K products.
+
+INSIGHT 2 — Q4 SEASONALITY IS SIGNIFICANT
+  Q4 (Oct–Dec) consistently contributes 29% of annual revenue across
+  all years, driven by festive season demand (Navratri, Diwali, Christmas).
+  → Recommendation: Increase inventory and marketing spend in Sept–Oct.
+
+INSIGHT 3 — WEST REGION LEADS PROFITABILITY
+  West region achieves the highest profit margin at 23.1%,
+  outperforming the national average of 21.5%. Cities like Mumbai
+  and Pune show premium product affinity with lower discount demands.
+  → Recommendation: Study West region playbook and replicate in East region.
+
+INSIGHT 4 — HIGH DISCOUNTS DESTROY PROFIT MARGIN
+  Orders with no discount average 39.8% margin. Orders with >30%
+  discount average 13.6% margin — a significant compression.
+  364 orders (7.3%)
+  have discounts above 25%.
+  → Recommendation: Cap maximum discount at 20% unless clearing dead stock.
+
+INSIGHT 5 — CLOTHING HAS BEST MARGIN, LOWEST AOV
+  Clothing has the second-highest margin (40.8%)
+  but lowest average order value. Bundling strategies (e.g., shirt + trouser)
+  could increase AOV while maintaining healthy margins.
+  → Recommendation: Launch bundle offers in Clothing category.
+
+INSIGHT 6 — TOP 20 CUSTOMERS DRIVE DISPROPORTIONATE REVENUE
+  Top 20 customers (6.7% of base) contribute
+  15%
+  of total revenue — classic Pareto principle.
+  → Recommendation: Implement loyalty program for Platinum/Gold tier customers.
+
+INSIGHT 7 — STANDARD CLASS SHIPPING DOMINATES
+  58%
+  of orders use Standard Class shipping (avg 6.0 days).
+  Same Day shipping is underutilized at
+  6.4%.
+  → Recommendation: Promote First Class shipping in high-margin categories.
+
+--------------------------------------------------------------------------------
+FILES GENERATED
+  Plots   : outputs/plots/ (12 visualizations)
+  Report  : outputs/reports/key_insights.txt
+  Data    : data/cleaned_sales_data.csv
+  SQL DB  : data/sales.db (created by 03_sql_analysis.py)
+================================================================================

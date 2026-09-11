@@ -1,0 +1,52 @@
+{
+    "name": "Smart Sales Intelligence Theme",
+    "dataColors": [
+        "#2196F3",
+        "#4CAF50",
+        "#FF9800",
+        "#E91E63",
+        "#9C27B0",
+        "#00BCD4",
+        "#FFC107",
+        "#795548"
+    ],
+    "background": "#FFFFFF",
+    "foreground": "#334155",
+    "tableAccent": "#2196F3",
+    "good": "#4CAF50",
+    "neutral": "#FF9800",
+    "bad": "#E53935",
+    "maximum": "#1565C0",
+    "center": "#FFC107",
+    "minimum": "#E53935",
+    "visualStyles": {
+        "*": {
+            "*": {
+                "title": [
+                    {
+                        "fontColor": { "solid": { "color": "#1E293B" } },
+                        "fontSize": 13,
+                        "fontFamily": "Segoe UI Semibold",
+                        "alignment": "left"
+                    }
+                ],
+                "background": [
+                    { "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }
+                ],
+                "border": [
+                    { "color": { "solid": { "color": "#E2E8F0" } }, "radius": 8 }
+                ]
+            }
+        },
+        "card": {
+            "*": {
+                "labels": [
+                    { "color": { "solid": { "color": "#2196F3" } }, "fontSize": 28 }
+                ],
+                "categoryLabels": [
+                    { "color": { "solid": { "color": "#64748B" } }, "fontSize": 11 }
+                ]
+            }
+        }
+    }
+}

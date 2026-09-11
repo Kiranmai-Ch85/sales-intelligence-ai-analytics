@@ -1,0 +1,139 @@
+================================================================================
+  DAX MEASURES — Smart Sales Intelligence Dashboard
+  Author: Manya Kumar
+================================================================================
+
+HOW TO ADD THESE:
+  1. In Power BI, go to Model/Report view
+  2. Right-click fact_sales table → New Measure
+  3. Paste each measure one at a time
+  4. Press Enter — repeat for all measures below
+
+TIP: Create a dedicated "_Measures" table to keep them organized:
+  Home → Enter Data → create empty table named "_Measures"
+  Then create all measures inside it.
+
+================================================================================
+  CORE MEASURES (Revenue, Profit, Orders)
+================================================================================
+
+Total Revenue = SUM(fact_sales[sales])
+
+Total Profit = SUM(fact_sales[profit])
+
+Total Orders = DISTINCTCOUNT(fact_sales[order_id])
+
+Total Quantity = SUM(fact_sales[quantity])
+
+Total Customers = DISTINCTCOUNT(fact_sales[customer_id])
+
+Avg Order Value = DIVIDE([Total Revenue], [Total Orders], 0)
+
+Profit Margin % = DIVIDE([Total Profit], [Total Revenue], 0)
+
+Avg Discount % = AVERAGE(fact_sales[discount])
+
+================================================================================
+  TIME INTELLIGENCE MEASURES
+  (require dim_date marked as a Date Table)
+================================================================================
+
+Revenue YTD =
+TOTALYTD([Total Revenue], dim_date[date])
+
+Revenue Previous Year =
+CALCULATE([Total Revenue], SAMEPERIODLASTYEAR(dim_date[date]))
+
+Revenue YoY Growth % =
+VAR CurrentRev = [Total Revenue]
+VAR PriorRev   = [Revenue Previous Year]
+RETURN DIVIDE(CurrentRev - PriorRev, PriorRev, 0)
+
+Revenue Previous Month =
+CALCULATE([Total Revenue], PREVIOUSMONTH(dim_date[date]))
+
+Revenue MoM Growth % =
+VAR CurrentRev = [Total Revenue]
+VAR PriorRev   = [Revenue Previous Month]
+RETURN DIVIDE(CurrentRev - PriorRev, PriorRev, 0)
+
+Rolling 3M Revenue =
+CALCULATE(
+    [Total Revenue],
+    DATESINPERIOD(dim_date[date], MAX(dim_date[date]), -3, MONTH)
+)
+
+================================================================================
+  RANKING & TOP-N MEASURES
+================================================================================
+
+Customer Rank =
+RANKX(ALL(dim_customer[customer_name]), [Total Revenue], , DESC, DENSE)
+
+Product Rank =
+RANKX(ALL(dim_product[product_name]), [Total Revenue], , DESC, DENSE)
+
+Region Rank by Revenue =
+RANKX(ALL(dim_geography[region]), [Total Revenue], , DESC, DENSE)
+
+================================================================================
+  KPI / INDICATOR MEASURES
+================================================================================
+
+Revenue (Cr) =
+DIVIDE([Total Revenue], 10000000, 0)
+
+Profit (L) =
+DIVIDE([Total Profit], 100000, 0)
+
+Profit Margin Label =
+FORMAT([Profit Margin %], "0.0%")
+
+High Discount Orders =
+CALCULATE([Total Orders], fact_sales[discount] > 0.20)
+
+High Discount Order % =
+DIVIDE([High Discount Orders], [Total Orders], 0)
+
+================================================================================
+  SEGMENTATION MEASURES
+================================================================================
+
+Revenue - Consumer =
+CALCULATE([Total Revenue], dim_customer[segment] = "Consumer")
+
+Revenue - Corporate =
+CALCULATE([Total Revenue], dim_customer[segment] = "Corporate")
+
+Revenue - Home Office =
+CALCULATE([Total Revenue], dim_customer[segment] = "Home Office")
+
+Top 20 Customer Revenue =
+VAR Top20 =
+    TOPN(20, ALL(dim_customer[customer_name]), [Total Revenue], DESC)
+RETURN
+    CALCULATE([Total Revenue], KEEPFILTERS(Top20))
+
+Top 20 Customer Contribution % =
+DIVIDE([Top 20 Customer Revenue], CALCULATE([Total Revenue], ALL(dim_customer)), 0)
+
+================================================================================
+  CALCULATED COLUMNS (add to fact_sales via New Column)
+================================================================================
+
+Discount Band =
+SWITCH(
+    TRUE(),
+    fact_sales[discount] = 0,     "No Discount",
+    fact_sales[discount] <= 0.10, "Low (1-10%)",
+    fact_sales[discount] <= 0.20, "Medium (11-20%)",
+    fact_sales[discount] <= 0.30, "High (21-30%)",
+    "Very High (>30%)"
+)
+
+Profit Status =
+IF(fact_sales[profit] > 0, "Profitable", "Loss")
+
+================================================================================
+  END OF DAX MEASURES
+================================================================================

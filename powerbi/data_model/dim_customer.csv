@@ -1,0 +1,301 @@
+customer_id,customer_name,segment,customer_tier,customer_ltv,home_region,home_city,total_orders
+CUST-0001,Gaurav Sharma,Consumer,Silver,93051.88,East,Bhubaneswar,11
+CUST-0002,Nikhil Kumar,Home Office,Gold,177516.0,North,Amritsar,12
+CUST-0003,Deepika Chatterjee,Corporate,Gold,262175.57,West,Mumbai,7
+CUST-0004,Aditi Patel,Corporate,Platinum,332289.77,South,Chennai,18
+CUST-0005,Anjali Mishra,Consumer,Silver,142319.54,North,Amritsar,17
+CUST-0006,Meera Yadav,Consumer,Gold,224139.43,West,Pune,14
+CUST-0007,Yash Chatterjee,Consumer,Bronze,44846.18,East,Kolkata,10
+CUST-0008,Kiran Yadav,Home Office,Platinum,477276.15,West,Ahmedabad,15
+CUST-0009,Rahul Kumar,Corporate,Gold,290324.96,South,Hyderabad,18
+CUST-0010,Divya Patel,Corporate,Silver,91337.71,West,Mumbai,14
+CUST-0011,Sandeep Iyer,Consumer,Gold,288331.41,East,Kolkata,21
+CUST-0012,Zara Das,Home Office,Gold,219245.76,North,Lucknow,19
+CUST-0013,Deepika Das,Corporate,Silver,144802.76,East,Ranchi,19
+CUST-0014,Sneha Chatterjee,Consumer,Gold,274853.81,South,Bangalore,14
+CUST-0015,Akash Pandey,Consumer,Gold,165730.06,South,Hyderabad,20
+CUST-0016,Deepika Mehta,Consumer,Gold,181604.61,North,Lucknow,15
+CUST-0017,Rahul Malhotra,Consumer,Silver,139227.06,East,Bhubaneswar,16
+CUST-0018,Sneha Iyer,Corporate,Gold,250999.7,South,Hyderabad,16
+CUST-0019,Arjun Mishra,Consumer,Bronze,47269.69,South,Coimbatore,14
+CUST-0020,Pooja Gupta,Consumer,Platinum,352169.97000000003,West,Surat,15
+CUST-0021,Rahul Tiwari,Corporate,Silver,113328.89,South,Hyderabad,15
+CUST-0022,Ananya Mehta,Consumer,Gold,165920.06,North,Jaipur,16
+CUST-0023,Tanvi Shah,Consumer,Gold,251386.19,North,Chandigarh,13
+CUST-0024,Esha Yadav,Consumer,Gold,153859.87,East,Bhubaneswar,14
+CUST-0025,Amit Pillai,Consumer,Gold,172900.09,West,Pune,15
+CUST-0026,Priya Kumar,Corporate,Silver,121054.5,South,Coimbatore,10
+CUST-0027,Chetan Shah,Consumer,Silver,148156.63,West,Nagpur,20
+CUST-0028,Tanvi Iyer,Consumer,Gold,195381.34,South,Chennai,16
+CUST-0029,Anjali Kapoor,Corporate,Platinum,356457.54,North,Delhi,17
+CUST-0030,Gaurav Kumar,Consumer,Silver,130748.39,South,Kochi,16
+CUST-0031,Geeta Patel,Corporate,Silver,117359.56,West,Surat,14
+CUST-0032,Geeta Malhotra,Consumer,Silver,121417.79,East,Ranchi,13
+CUST-0033,Aarav Pandey,Consumer,Silver,69058.22,North,Amritsar,11
+CUST-0034,Rahul Tiwari,Home Office,Platinum,398041.55,East,Kolkata,20
+CUST-0035,Rajesh Chopra,Home Office,Gold,195474.09,South,Kochi,21
+CUST-0036,Aarav Sinha,Corporate,Gold,225204.25,East,Ranchi,14
+CUST-0037,Manish Bose,Consumer,Gold,240309.89,North,Jaipur,15
+CUST-0038,Anjali Mishra,Consumer,Silver,69418.02,South,Chennai,10
+CUST-0039,Sneha Gupta,Corporate,Silver,102448.6,North,Amritsar,14
+CUST-0040,Rohit Kapoor,Consumer,Platinum,393588.15,North,Delhi,17
+CUST-0041,Sneha Nair,Consumer,Platinum,302106.67,South,Bangalore,23
+CUST-0042,Pooja Chatterjee,Consumer,Gold,193897.7,North,Delhi,14
+CUST-0043,Amit Patel,Consumer,Silver,125722.0,South,Chennai,11
+CUST-0044,Aisha Das,Home Office,Gold,171422.74,South,Hyderabad,16
+CUST-0045,Bhavesh Mishra,Consumer,Gold,160770.39,West,Pune,15
+CUST-0046,Chetan Sinha,Corporate,Gold,214688.45,South,Hyderabad,16
+CUST-0047,Tanvi Pandey,Consumer,Silver,81402.13,East,Guwahati,20
+CUST-0048,Bhavesh Malhotra,Corporate,Gold,215164.89,North,Chandigarh,17
+CUST-0049,Nikhil Patel,Corporate,Silver,78756.5,East,Kolkata,16
+CUST-0050,Farhan Das,Consumer,Gold,205565.36,South,Coimbatore,18
+CUST-0051,Nikhil Sharma,Home Office,Gold,253293.43,North,Delhi,20
+CUST-0052,Nikhil Patel,Corporate,Platinum,588534.83,North,Jaipur,25
+CUST-0053,Arjun Bose,Home Office,Silver,140507.85,South,Hyderabad,17
+CUST-0054,Amit Joshi,Home Office,Platinum,348137.9,South,Coimbatore,19
+CUST-0055,Esha Kapoor,Corporate,Platinum,360224.3,South,Kochi,19
+CUST-0056,Vikas Joshi,Home Office,Gold,273149.37,North,Delhi,26
+CUST-0057,Vikram Iyer,Consumer,Silver,104194.2,West,Surat,10
+CUST-0058,Zara Sinha,Consumer,Bronze,40499.79,North,Delhi,12
+CUST-0059,Ananya Pillai,Consumer,Platinum,428932.67,East,Kolkata,16
+CUST-0060,Pooja Joshi,Consumer,Silver,95771.84,South,Coimbatore,14
+CUST-0061,Yash Kumar,Consumer,Platinum,304399.39,West,Pune,24
+CUST-0062,Rahul Malhotra,Consumer,Gold,217090.66,South,Bangalore,25
+CUST-0063,Yash Das,Corporate,Silver,59241.43,North,Delhi,14
+CUST-0064,Chetan Sharma,Consumer,Platinum,314714.17,North,Chandigarh,22
+CUST-0065,Kiran Chopra,Consumer,Gold,161582.87,West,Surat,10
+CUST-0066,Neha Pillai,Corporate,Silver,110828.82,North,Chandigarh,25
+CUST-0067,Suresh Sharma,Consumer,Platinum,337883.37,West,Ahmedabad,16
+CUST-0068,Zara Nair,Corporate,Platinum,344654.96,West,Nagpur,18
+CUST-0069,Amit Kumar,Consumer,Silver,97089.81,South,Hyderabad,13
+CUST-0070,Neha Verma,Home Office,Silver,130728.18,North,Jaipur,20
+CUST-0071,Ananya Verma,Corporate,Gold,214960.7,West,Nagpur,26
+CUST-0072,Bhavesh Gupta,Consumer,Gold,154903.01,North,Amritsar,13
+CUST-0073,Deepika Gupta,Consumer,Platinum,388395.21,North,Amritsar,21
+CUST-0074,Arjun Pandey,Corporate,Silver,110033.17,South,Kochi,19
+CUST-0075,Gaurav Chatterjee,Corporate,Platinum,495920.23,South,Coimbatore,16
+CUST-0076,Geeta Verma,Corporate,Platinum,361439.46,North,Lucknow,23
+CUST-0077,Farhan Chatterjee,Corporate,Gold,169072.51,East,Patna,17
+CUST-0078,Neha Pandey,Consumer,Silver,121274.84,East,Bhubaneswar,15
+CUST-0079,Priya Pillai,Consumer,Gold,246352.91,South,Hyderabad,21
+CUST-0080,Zara Reddy,Consumer,Platinum,352140.47000000003,North,Delhi,17
+CUST-0081,Zara Mishra,Home Office,Gold,214595.91,North,Delhi,13
+CUST-0082,Chetan Joshi,Corporate,Gold,190473.82,East,Bhubaneswar,15
+CUST-0083,Sandeep Patel,Consumer,Gold,173051.2,South,Hyderabad,15
+CUST-0084,Rajesh Gupta,Consumer,Gold,194900.32,West,Nagpur,15
+CUST-0085,Ravi Mishra,Consumer,Gold,290592.16,North,Amritsar,15
+CUST-0086,Ravi Pandey,Consumer,Platinum,480988.08,North,Chandigarh,23
+CUST-0087,Priya Singh,Corporate,Gold,225383.02,North,Amritsar,14
+CUST-0088,Kavya Shah,Corporate,Platinum,350183.91000000003,East,Ranchi,14
+CUST-0089,Neha Yadav,Home Office,Gold,256087.38,East,Bhubaneswar,16
+CUST-0090,Priya Bose,Consumer,Platinum,407648.93,West,Ahmedabad,17
+CUST-0091,Ananya Patel,Consumer,Platinum,422923.9900000001,West,Ahmedabad,22
+CUST-0092,Akash Sharma,Corporate,Gold,211013.7,East,Bhubaneswar,19
+CUST-0093,Priya Gupta,Corporate,Silver,86670.65,West,Nagpur,18
+CUST-0094,Vikram Das,Corporate,Gold,208016.37,North,Delhi,17
+CUST-0095,Arjun Yadav,Corporate,Gold,158140.53,South,Coimbatore,23
+CUST-0096,Akash Iyer,Consumer,Gold,239051.39,South,Kochi,19
+CUST-0097,Ishaan Verma,Corporate,Platinum,389017.34,East,Patna,20
+CUST-0098,Akash Iyer,Consumer,Silver,117720.82,South,Chennai,23
+CUST-0099,Divya Iyer,Consumer,Silver,89495.05,West,Nagpur,18
+CUST-0100,Kavya Mehta,Consumer,Gold,158415.29,South,Chennai,17
+CUST-0101,Vikas Sharma,Consumer,Gold,191681.34,South,Hyderabad,15
+CUST-0102,Vikas Pandey,Corporate,Silver,112425.71,South,Hyderabad,13
+CUST-0103,Kiran Yadav,Consumer,Silver,123635.54,North,Lucknow,18
+CUST-0104,Akash Kapoor,Consumer,Gold,189468.81,South,Chennai,14
+CUST-0105,Zara Iyer,Home Office,Silver,135875.63,East,Bhubaneswar,13
+CUST-0106,Nikhil Sharma,Consumer,Silver,127756.34,South,Kochi,17
+CUST-0107,Sakshi Shah,Consumer,Silver,114916.98,North,Jaipur,11
+CUST-0108,Sandeep Tiwari,Corporate,Gold,268151.18,West,Nagpur,26
+CUST-0109,Sakshi Sharma,Consumer,Gold,217305.67,North,Jaipur,18
+CUST-0110,Manish Chatterjee,Consumer,Silver,147706.91,East,Kolkata,16
+CUST-0111,Divya Mishra,Consumer,Silver,71779.23999999999,West,Ahmedabad,13
+CUST-0112,Rohit Chopra,Consumer,Gold,223393.14,North,Lucknow,13
+CUST-0113,Esha Joshi,Home Office,Platinum,456350.15,East,Kolkata,22
+CUST-0114,Vikram Sharma,Corporate,Gold,268152.17000000004,South,Hyderabad,17
+CUST-0115,Vikram Patel,Corporate,Gold,211432.02,East,Ranchi,17
+CUST-0116,Rohit Pandey,Home Office,Platinum,497092.63,North,Jaipur,21
+CUST-0117,Anjali Nair,Corporate,Silver,128324.92,West,Ahmedabad,13
+CUST-0118,Tanvi Yadav,Consumer,Gold,251989.3,East,Ranchi,20
+CUST-0119,Ishaan Joshi,Home Office,Silver,141362.78,West,Surat,12
+CUST-0120,Manish Mishra,Corporate,Platinum,341566.58,East,Guwahati,16
+CUST-0121,Dhruv Sharma,Corporate,Gold,184828.73,East,Patna,20
+CUST-0122,Neha Chopra,Home Office,Gold,281448.62,East,Guwahati,17
+CUST-0123,Yash Malhotra,Consumer,Gold,281423.02,South,Coimbatore,15
+CUST-0124,Aisha Sinha,Consumer,Gold,207978.67,South,Bangalore,21
+CUST-0125,Rajesh Bose,Consumer,Silver,89107.7,East,Kolkata,12
+CUST-0126,Pooja Pandey,Consumer,Gold,200401.05,East,Bhubaneswar,18
+CUST-0127,Meera Kumar,Corporate,Platinum,617720.97,North,Delhi,19
+CUST-0128,Pooja Kapoor,Home Office,Platinum,313170.32,North,Lucknow,23
+CUST-0129,Vikas Tiwari,Consumer,Platinum,579793.69,South,Kochi,24
+CUST-0130,Amit Pillai,Consumer,Platinum,386095.91,South,Chennai,22
+CUST-0131,Aarav Singh,Consumer,Bronze,49351.61,West,Pune,9
+CUST-0132,Manish Yadav,Consumer,Gold,283028.06,West,Mumbai,14
+CUST-0133,Dhruv Mehta,Consumer,Silver,112196.59,North,Lucknow,17
+CUST-0134,Ishaan Malhotra,Consumer,Silver,78405.87999999999,East,Guwahati,17
+CUST-0135,Harsh Sinha,Home Office,Silver,52024.46,West,Nagpur,15
+CUST-0136,Yash Gupta,Consumer,Silver,62087.62,West,Surat,13
+CUST-0137,Priya Mehta,Consumer,Silver,87023.78000000001,East,Ranchi,13
+CUST-0138,Amit Tiwari,Corporate,Gold,177913.56,South,Hyderabad,13
+CUST-0139,Yash Patel,Consumer,Gold,165243.39,East,Bhubaneswar,14
+CUST-0140,Rahul Reddy,Home Office,Platinum,313883.64,East,Ranchi,16
+CUST-0141,Deepika Kumar,Home Office,Gold,211842.06,South,Chennai,19
+CUST-0142,Suresh Yadav,Consumer,Gold,270749.54,South,Chennai,14
+CUST-0143,Arjun Chopra,Consumer,Gold,234740.5,West,Ahmedabad,16
+CUST-0144,Chetan Malhotra,Consumer,Gold,157872.05,West,Mumbai,12
+CUST-0145,Neha Chopra,Consumer,Silver,130524.53,West,Nagpur,19
+CUST-0146,Aditi Chatterjee,Consumer,Silver,145928.34,West,Surat,15
+CUST-0147,Aarav Iyer,Corporate,Gold,178948.61,East,Guwahati,12
+CUST-0148,Vikas Das,Consumer,Gold,282789.87,South,Kochi,14
+CUST-0149,Nikhil Shah,Consumer,Silver,131975.95,West,Surat,17
+CUST-0150,Aditi Pillai,Consumer,Gold,180213.96,East,Guwahati,15
+CUST-0151,Kiran Malhotra,Home Office,Gold,208025.42,South,Coimbatore,15
+CUST-0152,Chetan Sharma,Consumer,Silver,142455.61,West,Nagpur,16
+CUST-0153,Esha Pandey,Consumer,Gold,232776.18,North,Delhi,18
+CUST-0154,Vikram Kumar,Consumer,Gold,182833.97,West,Pune,22
+CUST-0155,Ananya Shah,Home Office,Gold,265680.22000000003,West,Ahmedabad,23
+CUST-0156,Neha Malhotra,Consumer,Silver,70423.22,East,Patna,23
+CUST-0157,Suresh Shah,Corporate,Silver,88264.21,West,Ahmedabad,10
+CUST-0158,Deepika Kapoor,Corporate,Silver,86136.87000000001,North,Amritsar,12
+CUST-0159,Ananya Iyer,Consumer,Silver,101604.9,South,Bangalore,11
+CUST-0160,Akash Sharma,Corporate,Platinum,300102.18,South,Chennai,17
+CUST-0161,Aditi Mishra,Consumer,Silver,147938.87,South,Chennai,27
+CUST-0162,Ishaan Kapoor,Corporate,Silver,125534.42,North,Amritsar,14
+CUST-0163,Neha Malhotra,Corporate,Gold,252698.92,East,Patna,20
+CUST-0164,Kiran Mishra,Corporate,Gold,249518.34,North,Chandigarh,17
+CUST-0165,Ravi Singh,Consumer,Gold,162804.31,North,Jaipur,14
+CUST-0166,Esha Pandey,Corporate,Gold,213395.89,West,Surat,23
+CUST-0167,Meera Patel,Consumer,Silver,67792.57,South,Bangalore,15
+CUST-0168,Ravi Pandey,Consumer,Platinum,389666.37,North,Amritsar,17
+CUST-0169,Akash Iyer,Consumer,Silver,143726.71,West,Ahmedabad,9
+CUST-0170,Arjun Bose,Corporate,Gold,264394.99,East,Kolkata,28
+CUST-0171,Vikas Kapoor,Corporate,Gold,169123.78999999998,North,Lucknow,16
+CUST-0172,Sneha Tiwari,Consumer,Silver,62098.05,West,Pune,12
+CUST-0173,Vikram Gupta,Consumer,Gold,275051.88,East,Ranchi,19
+CUST-0174,Chetan Kapoor,Consumer,Gold,235775.15,West,Surat,22
+CUST-0175,Farhan Shah,Corporate,Silver,113571.09,East,Bhubaneswar,9
+CUST-0176,Deepika Shah,Consumer,Gold,293078.84,West,Pune,18
+CUST-0177,Zara Chatterjee,Corporate,Gold,233673.08,West,Ahmedabad,13
+CUST-0178,Aditi Kapoor,Consumer,Bronze,23217.47,East,Bhubaneswar,7
+CUST-0179,Amit Joshi,Home Office,Gold,266188.15,East,Patna,11
+CUST-0180,Sakshi Shah,Consumer,Silver,110380.57,East,Ranchi,13
+CUST-0181,Aarav Bose,Consumer,Platinum,385293.35,South,Bangalore,14
+CUST-0182,Pooja Sinha,Consumer,Gold,166590.85,West,Surat,15
+CUST-0183,Dhruv Mehta,Home Office,Silver,127124.65,West,Surat,10
+CUST-0184,Yash Sharma,Home Office,Gold,259210.45,North,Jaipur,16
+CUST-0185,Nikhil Pillai,Consumer,Silver,119847.8,South,Hyderabad,21
+CUST-0186,Farhan Iyer,Corporate,Silver,136853.36000000002,West,Nagpur,15
+CUST-0187,Bhavesh Iyer,Corporate,Platinum,304226.56,West,Nagpur,16
+CUST-0188,Sakshi Iyer,Corporate,Platinum,309532.83,West,Ahmedabad,24
+CUST-0189,Ravi Shah,Corporate,Gold,247493.41,South,Bangalore,17
+CUST-0190,Meera Reddy,Consumer,Platinum,300205.03,North,Amritsar,15
+CUST-0191,Manish Joshi,Consumer,Gold,159096.33,South,Kochi,19
+CUST-0192,Rahul Sinha,Home Office,Silver,138013.18,East,Kolkata,18
+CUST-0193,Meera Nair,Home Office,Gold,154582.6,South,Hyderabad,19
+CUST-0194,Manish Nair,Corporate,Platinum,314658.16,North,Amritsar,24
+CUST-0195,Ishaan Shah,Consumer,Gold,163360.06,North,Delhi,19
+CUST-0196,Dhruv Nair,Consumer,Gold,252152.83,South,Kochi,20
+CUST-0197,Divya Sharma,Corporate,Silver,125957.38,East,Guwahati,12
+CUST-0198,Aisha Malhotra,Home Office,Silver,100268.93,East,Bhubaneswar,12
+CUST-0199,Ananya Shah,Home Office,Silver,75896.94,West,Mumbai,16
+CUST-0200,Arjun Pillai,Corporate,Silver,105962.92,West,Mumbai,18
+CUST-0201,Esha Tiwari,Corporate,Platinum,341554.53,North,Chandigarh,16
+CUST-0202,Kavya Chatterjee,Consumer,Platinum,381254.03,East,Kolkata,24
+CUST-0203,Pooja Singh,Consumer,Gold,271066.97,West,Nagpur,15
+CUST-0204,Geeta Mishra,Home Office,Gold,251225.18,South,Coimbatore,20
+CUST-0205,Suresh Malhotra,Corporate,Silver,82444.77,West,Ahmedabad,12
+CUST-0206,Farhan Chopra,Consumer,Platinum,382939.32,East,Ranchi,19
+CUST-0207,Harsh Verma,Consumer,Silver,106489.18,North,Chandigarh,16
+CUST-0208,Neha Shah,Corporate,Gold,203147.71,North,Chandigarh,10
+CUST-0209,Pooja Gupta,Consumer,Silver,109460.55,North,Chandigarh,14
+CUST-0210,Aarav Chopra,Consumer,Gold,161086.50999999998,West,Nagpur,15
+CUST-0211,Aisha Nair,Corporate,Gold,175708.75,North,Chandigarh,18
+CUST-0212,Rajesh Yadav,Corporate,Silver,122733.96,East,Guwahati,16
+CUST-0213,Arjun Pandey,Corporate,Gold,275856.57,South,Hyderabad,16
+CUST-0214,Farhan Pandey,Consumer,Platinum,383282.64,South,Kochi,18
+CUST-0215,Gaurav Das,Corporate,Gold,264073.03,South,Chennai,21
+CUST-0216,Rahul Kumar,Consumer,Gold,205741.04,North,Delhi,18
+CUST-0217,Kiran Nair,Consumer,Gold,290742.72,East,Guwahati,23
+CUST-0218,Gaurav Malhotra,Corporate,Gold,233349.9,East,Guwahati,17
+CUST-0219,Rahul Bose,Corporate,Gold,227131.4,West,Surat,21
+CUST-0220,Deepika Mishra,Home Office,Platinum,346069.39,North,Lucknow,15
+CUST-0221,Rohit Mishra,Corporate,Platinum,356745.21,East,Kolkata,14
+CUST-0222,Deepika Mehta,Corporate,Platinum,540424.31,North,Jaipur,13
+CUST-0223,Esha Verma,Consumer,Platinum,392444.56,South,Kochi,21
+CUST-0224,Bhavesh Tiwari,Consumer,Platinum,319149.87,West,Ahmedabad,16
+CUST-0225,Manish Chatterjee,Consumer,Gold,259743.0,West,Surat,21
+CUST-0226,Deepika Kapoor,Consumer,Silver,88024.83,East,Guwahati,12
+CUST-0227,Sakshi Reddy,Home Office,Platinum,338389.62000000005,North,Chandigarh,13
+CUST-0228,Sakshi Chopra,Consumer,Platinum,449085.18,West,Ahmedabad,18
+CUST-0229,Tanvi Das,Home Office,Gold,200401.39,North,Lucknow,22
+CUST-0230,Deepika Reddy,Corporate,Platinum,304013.81,East,Patna,8
+CUST-0231,Gaurav Pillai,Corporate,Gold,173111.05,North,Amritsar,20
+CUST-0232,Zara Chopra,Consumer,Silver,103748.11,North,Chandigarh,20
+CUST-0233,Bhavesh Iyer,Corporate,Platinum,601956.97,West,Surat,28
+CUST-0234,Ananya Joshi,Consumer,Gold,155544.82,East,Ranchi,13
+CUST-0235,Ishaan Nair,Consumer,Silver,61755.03,West,Surat,13
+CUST-0236,Gaurav Sharma,Corporate,Silver,104361.32,South,Chennai,20
+CUST-0237,Ravi Das,Consumer,Gold,276562.69,North,Amritsar,15
+CUST-0238,Vikas Patel,Consumer,Silver,105559.17,South,Bangalore,17
+CUST-0239,Zara Singh,Corporate,Gold,178868.2,South,Kochi,7
+CUST-0240,Rajesh Bose,Consumer,Gold,214291.24,East,Guwahati,11
+CUST-0241,Aisha Kapoor,Home Office,Gold,160925.26,South,Kochi,19
+CUST-0242,Dhruv Kumar,Home Office,Silver,132823.02,West,Pune,16
+CUST-0243,Geeta Bose,Home Office,Gold,264746.91000000003,South,Bangalore,19
+CUST-0244,Rahul Chopra,Consumer,Platinum,343541.11,East,Ranchi,15
+CUST-0245,Rahul Sharma,Consumer,Platinum,380224.8,East,Patna,15
+CUST-0246,Farhan Chatterjee,Home Office,Silver,93603.29,West,Pune,18
+CUST-0247,Yash Das,Consumer,Silver,147596.47,West,Ahmedabad,13
+CUST-0248,Sakshi Das,Home Office,Platinum,334708.07,West,Surat,15
+CUST-0249,Rohit Joshi,Home Office,Platinum,313602.77,South,Coimbatore,13
+CUST-0250,Suresh Mehta,Home Office,Gold,267331.98,West,Mumbai,20
+CUST-0251,Rohit Sinha,Consumer,Gold,269140.19,West,Surat,20
+CUST-0252,Suresh Pandey,Consumer,Gold,291023.1,South,Kochi,25
+CUST-0253,Akash Kumar,Home Office,Platinum,323180.72000000003,East,Kolkata,22
+CUST-0254,Yash Singh,Consumer,Gold,208625.18,West,Mumbai,16
+CUST-0255,Kavya Chopra,Consumer,Gold,277202.4,South,Bangalore,19
+CUST-0256,Aisha Shah,Corporate,Platinum,434456.63,East,Ranchi,21
+CUST-0257,Tanvi Tiwari,Home Office,Gold,171783.07,North,Jaipur,15
+CUST-0258,Chetan Pillai,Corporate,Gold,184547.37,East,Guwahati,15
+CUST-0259,Chetan Verma,Corporate,Silver,119881.83,North,Chandigarh,17
+CUST-0260,Rajesh Mehta,Consumer,Silver,50632.96,North,Lucknow,9
+CUST-0261,Divya Tiwari,Corporate,Silver,75942.86,North,Lucknow,12
+CUST-0262,Kiran Yadav,Home Office,Silver,143069.24,East,Kolkata,16
+CUST-0263,Akash Reddy,Consumer,Silver,108802.29,North,Jaipur,18
+CUST-0264,Sandeep Iyer,Consumer,Bronze,23362.48,West,Pune,6
+CUST-0265,Pooja Bose,Home Office,Platinum,314419.15,West,Nagpur,13
+CUST-0266,Manish Gupta,Corporate,Gold,288196.23,South,Bangalore,20
+CUST-0267,Harsh Pillai,Corporate,Gold,216522.66,South,Kochi,25
+CUST-0268,Farhan Kumar,Corporate,Platinum,342100.09,South,Kochi,22
+CUST-0269,Priya Malhotra,Consumer,Platinum,473939.66,East,Kolkata,25
+CUST-0270,Zara Nair,Consumer,Silver,91879.88,South,Bangalore,16
+CUST-0271,Yash Iyer,Corporate,Gold,177176.99,East,Guwahati,12
+CUST-0272,Priya Malhotra,Corporate,Platinum,308159.61,East,Bhubaneswar,16
+CUST-0273,Suresh Kapoor,Home Office,Silver,136464.5,North,Chandigarh,19
+CUST-0274,Suresh Chatterjee,Home Office,Silver,54377.27,East,Ranchi,16
+CUST-0275,Rajesh Yadav,Consumer,Silver,99078.2,East,Kolkata,16
+CUST-0276,Tanvi Shah,Consumer,Silver,114858.06,North,Amritsar,18
+CUST-0277,Ananya Mishra,Corporate,Gold,164818.92,West,Ahmedabad,15
+CUST-0278,Nikhil Mishra,Corporate,Silver,136279.68,East,Bhubaneswar,14
+CUST-0279,Meera Mishra,Corporate,Gold,261025.59,East,Bhubaneswar,20
+CUST-0280,Divya Tiwari,Corporate,Gold,161997.09,North,Jaipur,13
+CUST-0281,Yash Verma,Home Office,Gold,207048.26,East,Bhubaneswar,18
+CUST-0282,Deepika Nair,Consumer,Silver,126739.87,East,Guwahati,15
+CUST-0283,Manish Joshi,Consumer,Gold,242378.27,South,Coimbatore,15
+CUST-0284,Sneha Bose,Consumer,Gold,253930.38,East,Bhubaneswar,17
+CUST-0285,Priya Kapoor,Corporate,Silver,96068.06,East,Patna,8
+CUST-0286,Gaurav Malhotra,Consumer,Gold,225870.85,North,Chandigarh,16
+CUST-0287,Nikhil Pandey,Consumer,Gold,200580.67,West,Nagpur,18
+CUST-0288,Sneha Patel,Corporate,Bronze,39979.18,West,Mumbai,12
+CUST-0289,Priya Das,Consumer,Platinum,627339.55,North,Lucknow,14
+CUST-0290,Sneha Pandey,Corporate,Silver,145916.73,East,Ranchi,16
+CUST-0291,Suresh Tiwari,Consumer,Platinum,324361.63,East,Kolkata,17
+CUST-0292,Nikhil Kapoor,Consumer,Silver,114974.05,North,Amritsar,16
+CUST-0293,Dhruv Reddy,Corporate,Silver,94840.85,South,Bangalore,21
+CUST-0294,Zara Yadav,Consumer,Gold,274765.95,East,Guwahati,25
+CUST-0295,Gaurav Kumar,Consumer,Silver,131525.05,North,Delhi,17
+CUST-0296,Ravi Kapoor,Corporate,Platinum,454514.35,North,Delhi,21
+CUST-0297,Pooja Das,Corporate,Silver,148802.54,South,Kochi,20
+CUST-0298,Zara Iyer,Consumer,Silver,73516.59,West,Nagpur,19
+CUST-0299,Kavya Chopra,Corporate,Platinum,316008.27,North,Lucknow,18
+CUST-0300,Harsh Chopra,Consumer,Gold,235270.87,East,Kolkata,18

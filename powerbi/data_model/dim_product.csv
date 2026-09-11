@@ -1,0 +1,51 @@
+product_id,product_name,category,avg_unit_price
+PROD-001,Air Fryer 4L,Home & Kitchen,5513.42
+PROD-002,Badminton Racket Set,Sports & Fitness,1496.64
+PROD-003,Bedsheet Set King,Home & Kitchen,1811.08
+PROD-004,Casual Dress,Clothing,2504.33
+PROD-005,Cricket Bat SS,Sports & Fitness,3186.74
+PROD-006,Cycling Helmet,Sports & Fitness,2206.85
+PROD-007,Data Science Handbook,Books & Stationery,651.15
+PROD-008,Denim Jeans,Clothing,2200.7
+PROD-009,Dumbbells 10kg Pair,Sports & Fitness,2491.27
+PROD-010,Ethnic Saree,Clothing,3494.84
+PROD-011,Football Nike,Sports & Fitness,1797.65
+PROD-012,Formal Trousers,Clothing,1806.85
+PROD-013,Highlighter Pack,Books & Stationery,178.7
+PROD-014,Jump Rope Speed,Sports & Fitness,449.89
+PROD-015,LED Desk Lamp,Home & Kitchen,1502.65
+PROD-016,"Laptop Air 13""",Electronics,42107.56
+PROD-017,"Laptop Pro 15""",Electronics,55120.12
+PROD-018,MBA Case Studies,Books & Stationery,753.62
+PROD-019,Mechanical Keyboard,Electronics,4494.7
+PROD-020,Men's Formal Shirt,Clothing,1194.84
+PROD-021,Mixer Grinder 750W,Home & Kitchen,3197.22
+PROD-022,"Monitor 27"" 4K",Electronics,21944.51
+PROD-023,Non-Stick Cookware Set,Home & Kitchen,3783.53
+PROD-024,Notebook Premium A4,Books & Stationery,220.49
+PROD-025,Novel - Bestseller,Books & Stationery,350.26
+PROD-026,Pen Set Luxury,Books & Stationery,683.72
+PROD-027,Planner 2024,Books & Stationery,382.34
+PROD-028,Pressure Cooker 5L,Home & Kitchen,2101.18
+PROD-029,Protein Powder 2kg,Sports & Fitness,2801.57
+PROD-030,Python Programming,Books & Stationery,580.89
+PROD-031,Resistance Bands Set,Sports & Fitness,949.63
+PROD-032,Running Shoes Pro,Sports & Fitness,4473.92
+PROD-033,Sketch Pad A3,Books & Stationery,448.4
+PROD-034,Smartphone Lite,Electronics,10018.08
+PROD-035,Smartphone X12,Electronics,18021.32
+PROD-036,Smartwatch Series 5,Electronics,7984.77
+PROD-037,Sneakers Classic,Clothing,3206.26
+PROD-038,Sofa Cushion Set,Home & Kitchen,1197.25
+PROD-039,Sports T-Shirt,Clothing,800.34
+PROD-040,Sticky Notes Bulk,Books & Stationery,119.51
+PROD-041,Tablet Ultra,Electronics,25050.92
+PROD-042,USB-C Hub,Electronics,1805.14
+PROD-043,Vacuum Cleaner,Home & Kitchen,6500.82
+PROD-044,Wall Clock Wooden,Home & Kitchen,847.66
+PROD-045,Water Purifier RO,Home & Kitchen,9484.48
+PROD-046,Winter Jacket,Clothing,4490.74
+PROD-047,Wireless Earbuds,Electronics,3492.85
+PROD-048,Women's Kurti,Clothing,1498.54
+PROD-049,Woollen Sweater,Clothing,1995.61
+PROD-050,Yoga Mat Premium,Sports & Fitness,1794.81
