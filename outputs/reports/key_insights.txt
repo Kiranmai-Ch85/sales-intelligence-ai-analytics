@@ -1,65 +1,44 @@
+KEY FINDINGS - Smart Sales Intelligence Dashboard
+==================================================
 
-================================================================================
-  KEY BUSINESS INSIGHTS — Smart Sales Intelligence Dashboard
-================================================================================
+Dataset: 5,000 orders | 2021-2024 | 300 customers | 50 products
+Total revenue: about Rs. 6.48 Crore
+Total profit: about Rs. 1.39 Crore
+Overall profit margin: 21.5%
 
-DATASET OVERVIEW
-  Period        : 2021 – 2024 (4 years)
-  Total Records : 5,000 orders
-  Unique Customers: 300
-  Products       : 50 SKUs across 5 categories
-  Total Revenue  : ₹6.48 Crore
-  Total Profit   : ₹139 Lakh
-  Overall Margin : 21.5%
 
---------------------------------------------------------------------------------
-INSIGHT 1 — ELECTRONICS DOMINATES REVENUE BUT HAS LOWEST MARGIN
-  Electronics contributes 78% of total revenue but has the lowest
-  profit margin (17.8%) among all categories. High price points
-  drive volume but discount pressure compresses margins significantly.
-  → Recommendation: Reduce discounting on electronics above-₹20K products.
+1. Electronics makes the most money but has the worst margin
+   - Electronics is about 78% of total revenue but only an 18% profit margin,
+     the lowest of all categories.
+   - It sells in high value but heavy discounting eats into the profit.
+   - Clothing, by contrast, has the best margin at ~41%.
 
-INSIGHT 2 — Q4 SEASONALITY IS SIGNIFICANT
-  Q4 (Oct–Dec) consistently contributes 29% of annual revenue across
-  all years, driven by festive season demand (Navratri, Diwali, Christmas).
-  → Recommendation: Increase inventory and marketing spend in Sept–Oct.
 
-INSIGHT 3 — WEST REGION LEADS PROFITABILITY
-  West region achieves the highest profit margin at 23.1%,
-  outperforming the national average of 21.5%. Cities like Mumbai
-  and Pune show premium product affinity with lower discount demands.
-  → Recommendation: Study West region playbook and replicate in East region.
+2. Discounts hurt profit a lot
+   - Orders with no discount average a ~40% margin.
+   - Orders with more than 30% discount drop to only ~14% margin.
+   - So the more we discount, the thinner the profit gets - the drop is steep.
 
-INSIGHT 4 — HIGH DISCOUNTS DESTROY PROFIT MARGIN
-  Orders with no discount average 39.8% margin. Orders with >30%
-  discount average 13.6% margin — a significant compression.
-  364 orders (7.3%)
-  have discounts above 25%.
-  → Recommendation: Cap maximum discount at 20% unless clearing dead stock.
 
-INSIGHT 5 — CLOTHING HAS BEST MARGIN, LOWEST AOV
-  Clothing has the second-highest margin (40.8%)
-  but lowest average order value. Bundling strategies (e.g., shirt + trouser)
-  could increase AOV while maintaining healthy margins.
-  → Recommendation: Launch bundle offers in Clothing category.
+3. Q4 is the biggest sales quarter
+   - October to December brings in about 29% of the whole year's revenue.
+   - This lines up with the festive season (Diwali, Christmas, year-end).
 
-INSIGHT 6 — TOP 20 CUSTOMERS DRIVE DISPROPORTIONATE REVENUE
-  Top 20 customers (6.7% of base) contribute
-  15%
-  of total revenue — classic Pareto principle.
-  → Recommendation: Implement loyalty program for Platinum/Gold tier customers.
 
-INSIGHT 7 — STANDARD CLASS SHIPPING DOMINATES
-  58%
-  of orders use Standard Class shipping (avg 6.0 days).
-  Same Day shipping is underutilized at
-  6.4%.
-  → Recommendation: Promote First Class shipping in high-margin categories.
+4. West region is the most profitable
+   - West has the highest profit margin (~23%), even though North has the
+     highest total revenue.
+   - So more revenue does not always mean more profit - margin matters.
 
---------------------------------------------------------------------------------
-FILES GENERATED
-  Plots   : outputs/plots/ (12 visualizations)
-  Report  : outputs/reports/key_insights.txt
-  Data    : data/cleaned_sales_data.csv
-  SQL DB  : data/sales.db (created by 03_sql_analysis.py)
-================================================================================
+
+5. A small group of customers drives a big share of revenue
+   - The top 20 customers (out of 300) bring in about 15% of total revenue.
+   - This is the usual pattern where a few customers matter the most.
+
+
+Simple takeaways
+----------------
+- Be careful with discounts on Electronics - they cut into profit.
+- Stock up and push marketing before Q4.
+- Look at what West region is doing right and try it in other regions.
+- Keep the top customers happy since they bring a large share of revenue.
