@@ -1,9 +1,8 @@
-# Smart Sales Intelligence Dashboard
+# Sales Intelligence & AI-Assisted Business Analytics
 
-**End-to-end data analytics project** — Python EDA, SQL analysis, Power BI dashboard, and a natural-language AI query agent, built on a 5,000-record retail sales dataset spanning 2021–2024.
+**End-to-end business analytics project** — Python, SQL, Power BI, and a basic natural-language query agent, extended with foundational AI/ML, Generative AI, and prompt engineering concepts.
 
-> A portfolio project demonstrating the complete data analyst workflow: data preparation → exploratory analysis → SQL business queries → BI dashboarding → AI-powered querying.
-
+> A practical analytics project covering data preparation, exploratory analysis, SQL business queries, Power BI dashboarding, and beginner-level AI-assisted analysis.
 ---
 
 ## Business Problem
