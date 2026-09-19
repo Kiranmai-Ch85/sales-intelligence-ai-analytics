@@ -225,10 +225,21 @@ The build package includes:
 
 ---
 
-## Author
+## My Contributions
 
-**Manya Kumar**
-B.Tech, IIT (ISM) Dhanbad | BS Data Science, IIT Madras
+This version extends the base sales analytics project with an AI-assisted analysis focus.
+
+- Added beginner-level documentation covering AI/ML fundamentals and common analytical use cases.
+- Added foundational Generative AI concepts relevant to data analysis workflows.
+- Added basic prompt engineering concepts for asking structured questions and summarizing analytical findings.
+- Reviewed the existing rule-based natural-language query agent and documented its role in business analysis.
+- Reorganized the project scope around sales intelligence, business analysis, and beginner-level AI-assisted analytics.
+
+---
+
+## Project Attribution
+
+The original base project was created by Manya Kumar. This repository is an adapted and extended version focused on AI-assisted business analytics.
 
 ---
 
